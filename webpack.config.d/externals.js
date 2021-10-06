@@ -1,0 +1,1 @@
+config.externals = ['tabris'];

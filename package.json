@@ -1,0 +1,15 @@
+{
+  "main": "dist",
+  "name": "tabris-rocks",
+  "private": true,
+  "scripts": {
+    "test": "",
+    "build": "./gradlew assemble",
+    "watch": "",
+    "start": "tabris serve -i"
+  },
+  "description": "Only add 'external' (non-bundled) dependencies here, others go in build.gradle.kts",
+  "dependencies": {
+    "tabris": "^3.8.0-dev.20211005"
+  }
+}
