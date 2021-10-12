@@ -25,6 +25,7 @@ kotlin {
             webpackTask {
                 outputFileName = "index.js"
                 output?.libraryTarget = "commonjs2"
+                mode = org.jetbrains.kotlin.gradle.targets.js.webpack.KotlinWebpackConfig.Mode.DEVELOPMENT
             }
             useCommonJs()
         }

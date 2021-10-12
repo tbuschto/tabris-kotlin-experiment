@@ -1,21 +1,27 @@
 import tabris.Button
 import tabris.TextView
+import tabris.Stack
 import tabris.contentView
 
 fun direct() {
-  val button = Button();
-  button.text = "Show message"
-  button.centerX = true
-  button.top = 100
 
-  val textView = TextView();
-  textView.centerX = true
-  textView.top = "prev() 50"
-  textView.font = "24px"
-
-  button.onSelect {
-    textView.text = "Hello Tabris-Kotlin"
-  }
-
-  contentView.append(button, textView)
+  contentView.append(
+    Stack({spacing = 50}) {
+      append(
+        Button({
+          text = "Show message"
+          centerX = true
+          top = 100
+        }) {
+          onSelect {
+            contentView.find(TextView::class.js)[0].text = "Hello Tabris-Kotlin foo"
+          }
+        },
+        TextView({
+          centerX = true
+          font = "24px"
+        })
+      )
+    }
+  )
 }

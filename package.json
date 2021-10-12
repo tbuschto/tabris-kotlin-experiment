@@ -10,6 +10,6 @@
   },
   "description": "Only add 'external' (non-bundled) dependencies here, others go in build.gradle.kts",
   "dependencies": {
-    "tabris": "^3.8.0-dev.20211005"
+    "tabris": "^3.8.0"
   }
 }

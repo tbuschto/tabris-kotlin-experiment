@@ -66,10 +66,3 @@ open class ButtonBuilder(
   }
 
 }
-
-// doing all of this for every property seems redundant, event if code is generated.
-// maybe a "properties = {}" syntax, where the type that can be shared with the widget?
-// Or merge with widget? (native kotlin only)
-// or subclass widget
-// all of these seem less-than-ideal for traditional custom components, but functional components should work
-
