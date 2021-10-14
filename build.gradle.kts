@@ -11,8 +11,7 @@ repositories {
 }
 
 dependencies {
-    // External, added in package.json
-    // implementation(npm("tabris", "3.7.2"))
+    api(project("tabris-kotlin-wrapper"))
 }
 
 kotlin {

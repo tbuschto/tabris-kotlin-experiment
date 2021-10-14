@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="tabris-kotlin-wrapper">
+    <output-path>$USER_HOME$/git/tabris-js/kotlin/build/libs</output-path>
+    <root id="archive" name="tabris-kotlin-wrapper.jar">
+      <element id="module-output" name="tabris-rocks.tabris-kotlin-wrapper.main" />
+    </root>
+  </artifact>
+</component>

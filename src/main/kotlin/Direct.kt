@@ -1,10 +1,9 @@
-import tabris.Button
-import tabris.TextView
-import tabris.Stack
-import tabris.contentView
+import tabris.widget.Button
+import tabris.widget.TextView
+import tabris.widget.Stack
+import tabris.widget.contentView;
 
 fun direct() {
-
   contentView.append(
     Stack({spacing = 50}) {
       append(
